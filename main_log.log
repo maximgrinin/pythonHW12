@@ -1,0 +1,33 @@
+ * Running on http://127.0.0.1:80 (Press CTRL+C to quit)
+127.0.0.1 - - [23/Jul/2022 20:52:10] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [23/Jul/2022 20:52:10] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [23/Jul/2022 20:52:15] "GET /search?s=бан HTTP/1.1" 200 -
+127.0.0.1 - - [23/Jul/2022 20:52:15] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [23/Jul/2022 20:52:15] "[36mGET /uploads/images/72186854_137949490847016_8669919029504261996_n.jpg HTTP/1.1[0m" 304 -
+ * Running on http://127.0.0.1:5000 (Press CTRL+C to quit)
+ * Running on http://127.0.0.1:80 (Press CTRL+C to quit)
+127.0.0.1 - - [23/Jul/2022 20:54:53] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [23/Jul/2022 20:54:53] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [23/Jul/2022 20:54:56] "GET /search?s=утро HTTP/1.1" 200 -
+127.0.0.1 - - [23/Jul/2022 20:54:56] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+ * Running on http://127.0.0.1:5000 (Press CTRL+C to quit)
+Логгер main работает
+Логгер main работает
+Осуществлен поиск по тэгу <утро>
+2022-07-23 21:01:36,182 : Осуществлен поиск по тэгу <утро>
+21:18:35 - main_logger - INFO - Запускаем логирование
+21:18:41 - main_logger - INFO - Осуществлен поиск по тэгу <утро>
+21:28:31 - main_logger - WARNING - Не смогли прочитать файл с постами. [FileNotFoundError]: No such file or directory, имя файла: posts.json
+21:28:31 - main_logger - INFO - Осуществлен поиск по тэгу <утро>
+21:29:09 - main_logger - WARNING - Не смогли обработать считанное из файла с постами
+21:29:09 - main_logger - INFO - Осуществлен поиск по тэгу <утро>
+21:29:27 - main_logger - INFO - Осуществлен поиск по тэгу <утро>
+21:30:08 - main_logger - ERROR - Произошла ошибка при сохранении файла. [FileNotFoundError]: No such file or directory, имя файла: uploads/images/120578559_346940349974194_8946880169214332305_n.jpg
+21:30:57 - main_logger - WARNING - Недопустимое расширение файла. Загружать можно: png,jpeg,gif,jpg
+21:30:57 - main_logger - ERROR - Недопустимое расширение файла. [ValueError]: имя файла: П2 ВВ01024.pdf
+21:32:48 - main_logger - INFO - Осуществлен поиск по тэгу <>
+21:32:55 - main_logger - ERROR - Недопустимое расширение файла. Загружать можно: png, jpeg, gif, jpg
+21:32:55 - main_logger - ERROR - Недопустимое расширение файла. [ValueError]: имя файла: Спецификация купель2 (1).pdf
+21:36:57 - main_logger - INFO - Добавили новый пост
+21:37:01 - main_logger - INFO - Осуществлен поиск по тэгу <утро>
+21:37:10 - main_logger - INFO - Осуществлен поиск по тэгу <бан>
